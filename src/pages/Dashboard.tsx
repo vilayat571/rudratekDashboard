@@ -31,8 +31,8 @@ export function Dashboard() {
   return (
     <div className="min-h-screen bg-slate-50">
       {/* Top navbar */}
-      <header className="bg-white border-b border-slate-200 px-6 py-4">
-        <div className="max-w-5xl mx-auto flex items-center gap-3">
+      <header className="bg-white border-b border-slate-200 py-4">
+        <div className="max-w-5xl mx-auto px-6 flex items-center gap-3">
           {/* Simple logo placeholder */}
           <div className="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center">
             <span className="text-white text-xs font-bold">R</span>
