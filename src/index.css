@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@theme {
+  --breakpoint-sm: 300px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1040px;
+  --breakpoint-xl: 1366px;
+}
+
+@font-face {
+  font-family: "InterRegular";
+  src: url("./assets/fonts/static/GoogleSansFlex_120pt-Regular.ttf")
+    format("woff2");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "InterMedium";
+  src: url("./assets/fonts/static/GoogleSansFlex_120pt-Medium.ttf")
+    format("woff2");
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: #000;
+  font-family: "InterRegular";
+  color: white;
+}
+
+.name {
+  font-family: "InterMedium";
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
